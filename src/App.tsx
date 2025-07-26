@@ -1,7 +1,9 @@
-
+import Home from "./providers/UserContext"
 export const App =()=> {
    return (
-   <div>Hello</div>
+   <div>
+      <Home/>
+   </div>
  
    )
   }
